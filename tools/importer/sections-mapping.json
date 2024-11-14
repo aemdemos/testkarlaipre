@@ -1,0 +1,422 @@
+{
+  "url": "https://www.pre-induction-portal.com/uk/gb/en/index.html",
+  "sanitizedPath": "/uk/gb/en/index",
+  "autoDetect": false,
+  "mapping": [
+    {
+      "id": "1",
+      "path": "/nav",
+      "sections": [
+        {
+          "id": "1-1",
+          "blocks": [
+            {
+              "id": "box-id-1252231921",
+              "x": 0,
+              "y": 0,
+              "width": 1581,
+              "height": 94,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/nav[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgb(75, 0, 130)",
+              "mapping": "header",
+              "customBlockName": "aiheader"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "path": "/uk/gb/en/index",
+      "sections": [
+        {
+          "id": "2-1",
+          "blocks": [
+            {
+              "id": "box-id--517215",
+              "x": 0,
+              "y": 726,
+              "width": 1581,
+              "height": 1342,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/section[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti iPFHHB Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE hkkugY\"]/div[@class=\"Card-hpURZA egiymC\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[2]/section[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti iPFHHB Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE hkkugY\"]/div[@class=\"BaseRatio-UuVXI Ratio-emATmZ AbsoluteRatio-jTwRvW erZjNd eNkrXX StyledFullImage-cITrJP fsdMjs\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "columns",
+              "customBlockName": "aicolumns1"
+            }
+          ],
+          "settings": {}
+        },
+        {
+          "id": "2-2",
+          "blocks": [
+            {
+              "id": "box-id--517153",
+              "x": 0,
+              "y": 2674,
+              "width": 1581,
+              "height": 958,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[4]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "hero",
+              "customBlockName": "aihero1"
+            }
+          ],
+          "settings": {}
+        },
+        {
+          "id": "2-3",
+          "blocks": [
+            {
+              "id": "box-id--498817614",
+              "x": 0,
+              "y": 3632,
+              "width": 1581,
+              "height": 956,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[5]/section[1]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": "aihero1"
+            }
+          ],
+          "settings": {}
+        },
+        {
+          "id": "2-4",
+          "blocks": [
+            {
+              "id": "box-id--517091",
+              "x": 0,
+              "y": 5348,
+              "width": 1581,
+              "height": 166,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[6]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.1)",
+              "mapping": "defaultContent",
+              "customBlockName": "aidefault1"
+            },
+            {
+              "id": "box-id--517060",
+              "x": 0,
+              "y": 5514,
+              "width": 1581,
+              "height": 419,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[7]",
+              "layout": {
+                "numCols": 3,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[7]/section[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti jKJxBO jJOzga Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE hRXPHQ\"]/div[@class=\"Card-hpURZA bmSKkc\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[7]/section[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti jKJxBO jJOzga Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE hRXPHQ\"]/div[@class=\"Card-hpURZA bmSKkc\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[7]/section[1]/div[1]/div[3]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti jKJxBO jJOzga Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE hRXPHQ\"]/div[@class=\"Card-hpURZA bmSKkc\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "columns",
+              "customBlockName": "aicolumns2"
+            }
+          ],
+          "settings": {}
+        },
+        {
+          "id": "2-5",
+          "blocks": [
+            {
+              "id": "box-id--1725290289",
+              "x": 0,
+              "y": 5934,
+              "width": 1581,
+              "height": 84,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[8]/section[1]/div[1]",
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[8]/section[1]/div[1]/div[1]/button[1]",
+                  "xpathWithDetails": "id(\"selector-range-rover\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[8]/section[1]/div[1]/div[1]/button[2]",
+                  "xpathWithDetails": "id(\"selector-range-rover-sport\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[8]/section[1]/div[1]/div[1]/button[3]",
+                  "xpathWithDetails": "id(\"selector-velar\")"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[8]/section[1]/div[1]/div[1]/button[4]",
+                  "xpathWithDetails": "id(\"selector-evoque\")"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.2)",
+              "mapping": "columns",
+              "customBlockName": "aicolumns3"
+            },
+            {
+              "id": "box-id--1725290258",
+              "x": 0,
+              "y": 6018,
+              "width": 1581,
+              "height": 889,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[8]/section[1]/div[2]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.2)",
+              "mapping": "defaultContent",
+              "customBlockName": "aihero2"
+            }
+          ],
+          "settings": {}
+        },
+        {
+          "id": "2-6",
+          "blocks": [
+            {
+              "id": "box-id--516998",
+              "x": 0,
+              "y": 6908,
+              "width": 1581,
+              "height": 777,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[9]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "hero",
+              "customBlockName": "aihero1"
+            }
+          ],
+          "settings": {}
+        },
+        {
+          "id": "2-7",
+          "blocks": [
+            {
+              "id": "box-id--16035928",
+              "x": 0,
+              "y": 7685,
+              "width": 1581,
+              "height": 774,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[10]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[10]/section[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti dgvODH Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE kWjtSk\"]/div[@class=\"Card-hpURZA ka-DNts\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[10]/section[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti dgvODH Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE kWjtSk\"]/div[@class=\"BaseRatio-UuVXI Ratio-emATmZ AbsoluteRatio-jTwRvW kZAnyJ gZXyxT StyledFullImage-cITrJP fsdMjs\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "columns",
+              "customBlockName": "aicolumns4"
+            }
+          ],
+          "settings": {}
+        },
+        {
+          "id": "2-8",
+          "blocks": [
+            {
+              "id": "box-id--16035897",
+              "x": 0,
+              "y": 8459,
+              "width": 1581,
+              "height": 1420,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[11]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[11]/section[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti cNiLAp Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE kWjtSk\"]/div[@class=\"Card-hpURZA ka-DNts\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[11]/section[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti cNiLAp Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE kWjtSk\"]/div[@class=\"BaseRatio-UuVXI Ratio-emATmZ AbsoluteRatio-jTwRvW ciBiLr fIpAVZ StyledFullImage-cITrJP fsdMjs\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "columns",
+              "customBlockName": "aicolumns5"
+            }
+          ],
+          "settings": {}
+        },
+        {
+          "id": "2-9",
+          "blocks": [
+            {
+              "id": "box-id--16035866",
+              "x": 0,
+              "y": 9879,
+              "width": 1581,
+              "height": 618,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/section[1]/div[1]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti dgvODH Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE jLXwaG\"]/div[@class=\"BaseRatio-UuVXI Ratio-emATmZ AbsoluteRatio-jTwRvW gETlfa dgiiVY StyledFullImage-cITrJP fsdMjs\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[12]/section[1]/div[1]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti dgvODH Section-ePDQUd\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE jLXwaG\"]/div[@class=\"Card-hpURZA egLpgd\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.3)",
+              "mapping": "columns",
+              "customBlockName": "aicolumns6"
+            }
+          ],
+          "settings": {}
+        },
+        {
+          "id": "2-10",
+          "blocks": [
+            {
+              "id": "box-id--1642363399",
+              "x": 0,
+              "y": 10587,
+              "width": 1581,
+              "height": 956,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[13]/section[1]/div[1]",
+              "layout": {
+                "numCols": 0,
+                "numRows": 0
+              },
+              "color": "rgba(148, 0, 211, 0.2)",
+              "mapping": "hero",
+              "customBlockName": "aihero2"
+            },
+            {
+              "id": "box-id--1642363368",
+              "x": 0,
+              "y": 11544,
+              "width": 1581,
+              "height": 760,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[13]/section[1]/div[2]",
+              "layout": {
+                "numCols": 2,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[13]/section[1]/div[2]/div[1]/div[2]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti daGxbs Section-ePDQUd defender\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE kWjtSk\"]/div[@class=\"Card-hpURZA eHFlwx\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[13]/section[1]/div[2]/div[1]/div[1]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti daGxbs Section-ePDQUd defender\"]/div[@class=\"BaseSpacer-fxLbzT Spacer-cBreti hGMIEI\"]/div[@class=\"BaseSpacer-fxLbzT Grid-kDFBlE kWjtSk\"]/div[@class=\"BaseRatio-UuVXI Ratio-emATmZ VideoContainer-ZITkm hlLscj ilZMOi\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.1)",
+              "mapping": "columns",
+              "customBlockName": "aicolumns7"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "path": "/footer",
+      "sections": [
+        {
+          "id": "3-1",
+          "blocks": [
+            {
+              "id": "box-id-1722200769",
+              "x": 0,
+              "y": 27184,
+              "width": 1581,
+              "height": 228,
+              "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]",
+              "layout": {
+                "numCols": 4,
+                "numRows": 1
+              },
+              "childrenXpaths": [
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/nav[1]/ul[1]/li[1]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti ifXrdB hUqCrb Section-ePDQUd\"]/nav[@class=\"ListContainer-KbPll jgBPzd\"]/ul[@class=\"ListWrapper-cyEPLV goOkK\"]/li[@class=\"ListItem-iNfHlz gNHbIi\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/nav[1]/ul[1]/li[2]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti ifXrdB hUqCrb Section-ePDQUd\"]/nav[@class=\"ListContainer-KbPll jgBPzd\"]/ul[@class=\"ListWrapper-cyEPLV goOkK\"]/li[@class=\"ListItem-iNfHlz gNHbIi\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/nav[1]/ul[1]/li[3]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti ifXrdB hUqCrb Section-ePDQUd\"]/nav[@class=\"ListContainer-KbPll jgBPzd\"]/ul[@class=\"ListWrapper-cyEPLV goOkK\"]/li[@class=\"ListItem-iNfHlz gNHbIi\"]"
+                },
+                {
+                  "xpath": "/html[1]/body[1]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[1]/div[1]/div[1]/section[1]/nav[1]/ul[1]/li[4]",
+                  "xpathWithDetails": "id(\"root\")/div[@class=\"aem-page\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/div[@class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 aem-container\"]/div[@class=\"aem-GridColumn aem-GridColumn--default--12\"]/section[@class=\"BaseSpacer-fxLbzT Spacer-cBreti ifXrdB hUqCrb Section-ePDQUd\"]/nav[@class=\"ListContainer-KbPll jgBPzd\"]/ul[@class=\"ListWrapper-cyEPLV goOkK\"]/li[@class=\"ListItem-iNfHlz gNHbIi\"]"
+                }
+              ],
+              "color": "rgba(148, 0, 211, 0.4)",
+              "mapping": "columns",
+              "customBlockName": "aifooter"
+            }
+          ],
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
