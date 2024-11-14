@@ -1,0 +1,43 @@
+
+.aicolumns5-wrapper > .aicolumns5 {
+  display: flex;
+  flex-direction: row; /* Arrange the children side by side */
+  width: 100%;
+}
+
+.aicolumns5-wrapper > .aicolumns5 > div {
+  display: flex;
+  flex-direction: row; /* Ensure horizontal alignment */
+  width: 100%;
+  align-items: stretch; /* Ensure both columns stretch to the same height */
+}
+
+.aicolumns5-wrapper > .aicolumns5 > div > div:first-child {
+  flex: 1; /* Take up equal space as the image column */
+  padding: 20px; /* Add padding around text for better readability */
+  background-color: #f5f5f5; /* Set background color to differentiate */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.aicolumns5-wrapper > .aicolumns5 > div > .aicolumns5-img-col {
+  flex: 1; /* Take up equal space as the text column */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+  padding: 0; /* Remove padding to ensure full height */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.aicolumns5-wrapper > .aicolumns5 > div > .aicolumns5-img-col img {
+  width: 100%; /* Make sure the image fits within its container */
+  height: 100%; /* Make the image take the full height of the container */
+  object-fit: cover; /* Ensure the image covers the entire area of its container */
+}
+
+@media (min-width: 900px) {
+  .aicolumns5-wrapper > .aicolumns5 > div {
+    align-items: stretch; /* Ensure both columns stretch to the same height */
+    flex-direction: row; /* Ensure horizontal alignment */
+    gap: 24px;
+  }
+}

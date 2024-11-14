@@ -17,7 +17,7 @@
   --text-color: #131313;
   --link-color: #3b63fb;
   --link-hover-color: #1d3ecf;
-  --body-font-family: "Times";
+  --body-font-family: "AvenirNext", "Times";
   --heading-font-family: "Times";
   --body-font-size-m: 22px;
   --body-font-size-s: 19px;
@@ -28,7 +28,7 @@
   --heading-font-size-m: 27px;
   --heading-font-size-s: 24px;
   --heading-font-size-xs: 22px;
-  --nav-height: 64px;
+  --nav-height: 94px;
 }
 
 /* fallback fonts */

@@ -1,0 +1,23 @@
+
+.aicolumns3-wrapper > .aicolumns3 > div {
+  display: flex;
+  flex-direction: row; /* Ensure the inner divs are displayed side by side */
+  justify-content: space-around; /* Ensure more compact and even spacing between the text elements */
+  width: 100%; /* Ensure the inner divs take the full width of the parent */
+  max-width: 1200px; /* Optionally set a max-width for better control */
+  padding: 0 5%; /* Add padding to adjust the spacing */
+}
+
+.aicolumns3-wrapper > .aicolumns3 > div > div {
+  flex: 1; /* Allow the inner divs to grow and take equal space */
+  text-align: center; /* Center-align the text within each div */
+}
+
+.aicolumns3-wrapper > .aicolumns3::after {
+  content: '';
+  display: block;
+  width: 80%; /* Adjust the width of the line to be slightly shorter and more centered */
+  height: 2px; /* Adjust the height of the line as needed */
+  background-color: grey; /* Adjust the color of the line as needed */
+  margin: 10px auto; /* Add some space between the text and the line and center the line */
+}

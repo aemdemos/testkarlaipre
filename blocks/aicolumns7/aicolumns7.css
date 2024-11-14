@@ -1,0 +1,93 @@
+
+.aicolumns7-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aicolumns7 {
+  display: flex;
+  flex-direction: row; /* Side by side */
+  width: 100%;
+}
+
+.aicolumns7 > div {
+  display: flex;
+  flex: 1;
+  flex-direction: row; /* Ensure children are side by side */
+}
+
+.aicolumns7 > div > div:first-child {
+  background-color: #3E4E5E; /* Dark background */
+  color: white; /* White text */
+  padding: 40px 20px; /* Adjust padding for proper spacing */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  width: 50%; /* Ensure proper width */
+  box-sizing: border-box; /* Include padding in width calculation */
+  align-items: flex-start; /* Align text to the left */
+}
+
+.aicolumns7-img-col {
+  position: relative;
+  overflow: hidden;
+  width: 50%; /* Ensure proper width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.aicolumns7-img-col img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Ensure the image covers the entire space */
+  max-height: 100%; /* Ensure the image doesn't overflow */
+}
+
+/* Ensure only the first image is displayed */
+.aicolumns7-img-col picture:nth-child(n+2) {
+  display: none;
+}
+
+.aicolumns7-img-col::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  background: url('path/to/play-icon.png') no-repeat center center;
+  background-size: contain;
+  transform: translate(-50%, -50%);
+  z-index: 1; /* Ensure overlay is visible */
+}
+
+.aicolumns7-img-col::after {
+  content: '';
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 30px; /* Adjust size as needed */
+  height: 30px; /* Adjust size as needed */
+  background: url('path/to/sound-icon.png') no-repeat center center;
+  background-size: contain;
+  z-index: 1; /* Ensure overlay is visible */
+}
+
+@media (max-width: 899px) {
+  .aicolumns7 {
+    flex-direction: column; /* Stack vertically on smaller screens */
+  }
+  
+  .aicolumns7 > div {
+    flex-direction: column; /* Stack vertically on smaller screens */
+  }
+
+  .aicolumns7 > div > div:first-child,
+  .aicolumns7-img-col {
+    width: 100%; /* Ensure full width on smaller screens */
+  }
+}

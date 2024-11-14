@@ -1,0 +1,54 @@
+.aicolumns1-container > .aicolumns1-wrapper {
+    max-width: unset;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.aicolumns1-wrapper > .aicolumns1 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh; /* Adjust height as necessary */
+    align-items: center; /* Ensure both sections are vertically centered */
+}
+
+.aicolumns1-wrapper > .aicolumns1 > div {
+    display: flex;
+    flex-direction: row; /* Ensure children are side by side */
+    width: 100%; /* Ensure it takes up the full width */
+    height: 100%; /* Ensure it takes up the full height */
+}
+
+.aicolumns1-wrapper > .aicolumns1 > div > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center the text */
+    padding: 60px; /* Increased padding to match the original */
+    background-color: #f0f0f0; /* Example background color */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    width: 60%; 
+    height: 100%; /* Ensure it takes up the full height */
+}
+
+.aicolumns1-wrapper > .aicolumns1 > div > .aicolumns1-img-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box; /* Ensure proper sizing */
+    width: 40%; 
+    height: 100%; /* Ensure it takes up the full height */
+}
+
+.aicolumns1-wrapper > .aicolumns1 > div > .aicolumns1-img-col picture,
+.aicolumns1-wrapper > .aicolumns1 > div > .aicolumns1-img-col img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+@media (min-width: 900px) {
+  .aicolumns1-wrapper > .aicolumns1 > div {
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+  }
+}

@@ -1,0 +1,49 @@
+
+.aifooter-wrapper .aifooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aifooter-wrapper .aifooter > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Center elements */
+  width: 100%;
+  max-width: 800px; /* Adjust as needed */
+  margin-bottom: 10px; /* Space between text and horizontal line */
+  gap: 20px; /* Add gap for spacing */
+}
+
+.aifooter-wrapper .aifooter > div > div {
+  flex: 0 1 auto; /* Prevents excessive growth */
+  text-align: center;
+}
+
+.aifooter-wrapper .aifooter:after {
+  content: '';
+  display: block;
+  width: 100%;
+  border-bottom: 1px solid #000; /* Adjust the color as needed */
+}
+
+.aifooter-wrapper .button-container .button {
+  background: none; /* Remove button background */
+  border: none; /* Remove button border */
+  color: inherit; /* Inherit text color */
+  padding: 0; /* Remove padding */
+  text-decoration: none; /* Remove underline */
+}
+
+@media (min-width: 900px) {
+  .aifooter-wrapper .aifooter > div {
+    align-items: center;
+    justify-content: center; /* Center elements */
+    flex-direction: row;
+    gap: 20px; /* Add gap for spacing */
+  }
+
+  .aifooter-wrapper .aifooter > div > div {
+    flex: 0 1 auto; /* Prevents excessive growth */
+  }
+}
